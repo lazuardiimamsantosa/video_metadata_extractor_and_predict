@@ -1,21 +1,30 @@
-#SUMBER DATASET 
+# SUMBER DATASET
+
 https://drive.google.com/drive/folders/1oZGpSwG9aU4AV5yZoroOY64bMgv2LsMk?usp=sharing
 
-#REFERENSI DAN BEBERAPA SUMBER PROGRAM DIAMBIL DARI
+# REFERENSI DAN BEBERAPA SUMBER PROGRAM DIAMBIL DARI
 https://github.com/yhyoy/video_source_identifier
 
-#FITUR YANG TERSEDIA
+# FITUR YANG TERSEDIA
 -Extractor Video from instant messeger
 -CSV to Fine-tune google-gemini
 -Gemini predict and accuracy matrix
 
-#EXTRACTOR
+# EXTRACTOR
+requirement :
+  - os
+  - pandas
+  - pathlib
+  - numpy
+  - ...
+Run pip install -r requirement.txt
 
-#CSVtoFINETUNE
+# CSVtoFINETUNE
 Run Extractor First
 
-Requirement :
--
+  Requirement :
+  -json
+  -pandas
 
 #GEMINI-API
 Description Coming soon
